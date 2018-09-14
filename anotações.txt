@@ -1,0 +1,19 @@
+$objdump -d <nome.o>: Visualizar o Assembly do objeto
+
+- Com ELF, nós podemos montar um executável linkado dinamicamente com bibliotecas. Processamento em tempo de execução.
+
+$ldd <file>: ver as dependencias e bibliotecas do arquivo.
+
+- System Calls: Interface entre aplicações/so.
+
+- Níveis da API: Libray Functions -> // System Calls -> // Kernel -> // Hardware;
+
+$man write: entender a System Call
+
+
+
+##Anotações aula 14/09:
+ps -aux | grep paralela
+
+
+
